@@ -1,0 +1,21 @@
+{
+  "name": "backendlearning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "Backend",
+    "chai",
+    "chai-Aur-Code"
+  ],
+  "author": "Rajat Chauhan",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
