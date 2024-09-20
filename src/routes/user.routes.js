@@ -3,7 +3,7 @@ import { registerUser } from "../conttrolers/user.controller.js";
 
 const router = Router()
 
-router.route("/register").post(registerUser)
+router.post("/api/v1/users/register",registerUser)
 
 
 export default router
